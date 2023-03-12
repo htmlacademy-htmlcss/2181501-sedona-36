@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Каталог гостиниц Седоны</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
+
   <body>
     <div class="container">
       <header class="page-header">
@@ -54,6 +56,7 @@
               <a class="link breadcrumbs-link">Гостиницы</a>
             </li>
           </ul>
+
           <h2 class="visually-hidden">Параметры поиска гостиниц в Седоне.</h2>
           <form class="search-filter" action="https://echo.htmlacademy.ru/" method="post">
             <fieldset class="search-filter-group infrastructure">
@@ -82,6 +85,7 @@
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="search-filter-group housing-type">
               <legend class="search-filter-title">Тип жилья:</legend>
               <ul class="search-filter-list">
@@ -108,8 +112,10 @@
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="price-filter">
               <legend class="price-filter-title">Стоимость, ₽:</legend>
+
               <div class="range-price-container">
                 <label class="range-price-starting">
                   <input class="range-input" type="number" name="starting-price" value="0" required>
@@ -134,6 +140,7 @@
                 </div>
               </div>
             </fieldset>
+
             <div class="button-search-container">
               <button class="button-search button-blue button-submit" type="submit">Применить</button>
               <button class="button-search button-reset button-transparent" type="reset">Сбросить</button>
