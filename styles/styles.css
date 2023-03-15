@@ -257,11 +257,14 @@ img {
   background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
   background-position: center calc(100% - 2px), center;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #5085a7;
 }
 
 .text-field-promo {
   padding: 66px 0 91px;
+}
+.text-field-promo-two {
+  padding: 45px 0 91px;
 }
 
 .title-general {
@@ -324,12 +327,10 @@ img {
 
 .advantages-title::after {
   content: '';
-
   display: block;
   width: 60px;
   height: 2px;
   margin: 30px auto;
-
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -343,10 +344,8 @@ img {
 
 .advantages-title-icon:before {
   content: "";
-
   display: block;
   margin: 0 auto;
-
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -354,27 +353,21 @@ img {
 .advantages-title-icon.home::before {
   width: 75px;
   height: 72px;
-
   margin-bottom: 31px;
-
   background-image: url("../images/icons/home.svg");
 }
 
 .advantages-title-icon.food::before {
   width: 74px;
   height: 70px;
-
   margin-bottom: 33px;
-
   background-image: url("../images/icons/food.svg");
 }
 
 .advantages-title-icon.souvenir::before {
   width: 64px;
   height: 76px;
-
   margin-bottom: 27px;
-
   background-image: url("../images/icons/souvenir.svg");
 }
 
@@ -414,7 +407,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 77px 0 96px 0;
+  padding: 50px 0 96px 0;
 }
 
 .appointment-description {
@@ -445,7 +438,6 @@ img {
 .field {
   background-color: #F2F2F2;
   border-radius: 4px;
-
   color: #000000;
 }
 
@@ -469,11 +461,9 @@ img {
   box-sizing: border-box;
   width: 452px;
   padding: 14px 20px;
-
   font-size: 18px;
   font-family: inherit;
   line-height: 24px;
-
   border-radius: 4px 0px 0px 4px;
   border: none;
 }
@@ -483,9 +473,9 @@ img {
 }
 
 .newsletter-index {
-  background-color: #82B3D3;
   background-image: url("../images/background-footer.jpg");
-  background-position: center;
+  background-color: #756157;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
@@ -582,8 +572,8 @@ img {
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(131, 179, 211, 0.6);
-  color: #ffffff;
+  background-color: #756157;
+  color: #FFFFFF;
   padding: 35px 70px 69px 70px;
 }
 
