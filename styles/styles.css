@@ -254,10 +254,10 @@ img {
   padding: 51px 0 82px;
   margin: auto;
   text-align: center;
-  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
-  background-position: center calc(100% - 2px), center;
-  background-repeat: no-repeat;
   background-color: #5085a7;
+  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
+  background-position: center bottom, center top;
+  background-repeat: no-repeat;
 }
 
 .text-field-promo {
@@ -325,7 +325,7 @@ img {
   text-transform: uppercase;
 }
 
-.advantages-title::after {
+.advantages-title:after {
   content: '';
   display: block;
   width: 60px;
@@ -350,7 +350,7 @@ img {
   background-position: center;
 }
 
-.advantages-title-icon.home::before {
+.advantages-title-icon.home:before {
   width: 75px;
   height: 72px;
   margin-bottom: 31px;
@@ -473,8 +473,8 @@ img {
 }
 
 .newsletter-index {
-  background-image: url("../images/background-footer.jpg");
   background-color: #756157;
+  background-image: url("../images/background-footer.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -569,10 +569,10 @@ img {
 }
 
 .inner-header {
+  background-color: #756157;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #756157;
   color: #FFFFFF;
   padding: 35px 70px 69px 70px;
 }
@@ -634,8 +634,7 @@ img {
 
 .breadcrumbs-house {
   display: block;
-  width: 15px;
-  margin-right: 26px;
+  margin-right: 40px;
   position: relative;
 }
 
@@ -964,6 +963,7 @@ img {
   width: 292px;
   box-shadow: inset 0 0 0 2px #E5E5E5;
   border-radius: 4px;
+  background-color: #ffffff;
 
   color: #333333;
   font-family: inherit;
@@ -1349,10 +1349,8 @@ img {
   line-height: 20px;
   background-color: #f2f2f2;
   border: none;
-
   width: 31px;
   height: 48px;
-
   margin: 0;
   padding: 0;
   text-align: center;
@@ -1384,6 +1382,7 @@ img {
   height: 48px;
   border: none;
   border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
 }
 
 .plus {
